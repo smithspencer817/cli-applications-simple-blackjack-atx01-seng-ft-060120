@@ -52,6 +52,8 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome 
+  cards = initial_round
+  hit?(cards)
 end
     
