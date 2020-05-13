@@ -58,5 +58,6 @@ def runner
     cards = hit?(cards)
     puts "Your cards add up to #{cards}"
   end
+  end_game
 end
     
