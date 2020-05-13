@@ -52,6 +52,8 @@ end
 #####################################################
 
 def runner
-  welcome 
+  welcome
+  cards = initial_round
+  
 end
     
