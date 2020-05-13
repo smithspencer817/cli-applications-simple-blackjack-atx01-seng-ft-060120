@@ -56,7 +56,7 @@ def runner
   cards = initial_round
   until cards > 21 do
     cards = hit?(cards)
-    puts cards
+    puts "Your cards add up to #{cards}"
   end
 end
     
