@@ -8,7 +8,6 @@ end
 
 def display_card_total(num)
   puts "Your cards add up to #{num}"
-  num
 end
 
 def prompt_user
@@ -28,6 +27,7 @@ def initial_round
   card2 = deal_card
   sum = card1 + card2
   display_card_total(sum)
+  sum
 end
 
 def hit?
