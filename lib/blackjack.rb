@@ -38,7 +38,7 @@ def hit?(card_total)
     card_total += new_card
   elsif answer != "s"
     invalid_command
-    hit?
+    hit?(card_total)
   end
   card_total
 end
