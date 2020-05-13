@@ -55,7 +55,7 @@ def runner
   welcome
   cards = initial_round
   until cards > 21 do
-    hit?(cards)
+    cards = hit?(cards)
     puts cards
   end
 end
